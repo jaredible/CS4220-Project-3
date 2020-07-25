@@ -69,25 +69,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7311718524C4E8C600DEFE49 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				7311718624C4E8DA00DEFE49 /* String.swift */,
-				73B86A4E24C6386D000752CE /* Contact.swift */,
-				41872A7D2400D0540025BE83 /* InputField.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		7311718924C4E98800DEFE49 /* Startup */ = {
-			isa = PBXGroup;
-			children = (
-				D144D8E323AE8C8000ACF3C3 /* AppDelegate.swift */,
-			);
-			name = Startup;
-			sourceTree = "<group>";
-		};
-		7311718A24C4EA2100DEFE49 /* Detail */ = {
+		731D516A24CBB9A600F6E99A /* Detail */ = {
 			isa = PBXGroup;
 			children = (
 				D144D8FD23AE8DBC00ACF3C3 /* ContactDetailModel.swift */,
@@ -96,26 +78,53 @@
 				73B86A5424C66D38000752CE /* ContactDetailLabel.swift */,
 				D144D90123AE8DD500ACF3C3 /* ContactDetail.storyboard */,
 			);
-			name = Detail;
+			path = Detail;
 			sourceTree = "<group>";
 		};
-		73DCAEC324C705B70017E058 /* Models */ = {
+		731D516B24CBB9C400F6E99A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7311718624C4E8DA00DEFE49 /* String.swift */,
+				73B86A4E24C6386D000752CE /* Contact.swift */,
+				41872A7D2400D0540025BE83 /* InputField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		731D516C24CBB9DD00F6E99A /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				73DCAEC524C7067B0017E058 /* CodableContact.swift */,
 				73DCAEC724C706AA0017E058 /* CodableAddress.swift */,
 				73DCAECB24C70AEC0017E058 /* CodableContacts.swift */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		73DCAEC424C705F60017E058 /* Resources */ = {
+		731D516D24CBB9F200F6E99A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				D144D8EC23AE8C8100ACF3C3 /* Assets.xcassets */,
 				73DCAEC924C707FE0017E058 /* contacts.json */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		731D516E24CBBA1900F6E99A /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				D144D8E323AE8C8000ACF3C3 /* AppDelegate.swift */,
+			);
+			name = Startup;
+			sourceTree = "<group>";
+		};
+		731D516F24CBBA3400F6E99A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D144D8EE23AE8C8100ACF3C3 /* LaunchScreen.storyboard */,
+				D144D8F123AE8C8100ACF3C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D144D8D723AE8C8000ACF3C3 = {
@@ -138,24 +147,15 @@
 		D144D8E223AE8C8000ACF3C3 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				7311718A24C4EA2100DEFE49 /* Detail */,
+				731D516A24CBB9A600F6E99A /* Detail */,
 				D144D8F923AE8D6D00ACF3C3 /* List */,
-				7311718524C4E8C600DEFE49 /* Extensions */,
-				73DCAEC324C705B70017E058 /* Models */,
-				73DCAEC424C705F60017E058 /* Resources */,
-				7311718924C4E98800DEFE49 /* Startup */,
-				D144D8F723AE8CE900ACF3C3 /* Supporting Files */,
+				731D516B24CBB9C400F6E99A /* Extensions */,
+				731D516C24CBB9DD00F6E99A /* Models */,
+				731D516D24CBB9F200F6E99A /* Resources */,
+				731D516E24CBBA1900F6E99A /* Startup */,
+				731D516F24CBBA3400F6E99A /* Supporting Files */,
 			);
 			path = Contacts;
-			sourceTree = "<group>";
-		};
-		D144D8F723AE8CE900ACF3C3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D144D8EE23AE8C8100ACF3C3 /* LaunchScreen.storyboard */,
-				D144D8F123AE8C8100ACF3C3 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D144D8F923AE8D6D00ACF3C3 /* List */ = {
